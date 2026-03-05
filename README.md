@@ -15,3 +15,21 @@ Task5 - Written Design Questions
 Install dependencies
 
 pip install -r requirements.txt
+
+
+# Task 1 - AI Message Handler
+
+This module handles customer support messages using AI.
+
+Function:
+
+handle_message(customer_message, customer_id, channel)
+
+Supported channels:
+- voice
+- chat
+- whatsapp
+
+Run example:
+
+python task1/handler.py
